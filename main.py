@@ -49,6 +49,20 @@ for person in people:
 # CITIES
 # Make a dictionary called "cities".
 # Use the names of three cities as keys in your dictionary.
+
+cities = [
+
+    {"City": "Vancouver", "Country": "Canada", "Population": "662.25K", "Fun fact": "BC Place, the soccer stadium, has the largest retractable roof in the world with 7500 sq. meters of sky."},
+
+    {"City": "Paris", "Country": "France", "Population": "2.05 million", "Fun fact": "Emperor Napoléon is buried in Les Invalides."},
+
+    {"City": "Berlin", "Country": "Germany", "Population": "3.69 million", "Fun fact": "Berlin has 1,700 bridges, and more canals than Amsterdam and Venice combined!"}
+
+]
+
+for city in cities:
+    print(f"\nName: {city['City']}, Country: {city['Country']}, Population: {city['Population']}, Fun fact: {city['Fun fact']}")
+
 # Create a dictionary of information about each city and include the country that the city is in,
 # its approximate population, and one fact about that city.
 # The keys for each city's dictionary should be something like "country, population, and fact".
