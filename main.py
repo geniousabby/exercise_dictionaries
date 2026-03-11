@@ -1,10 +1,27 @@
-# Dictionary exercises
+"""
+Dictionary exercises
+"""
 
 # PETS:
 # Make 3 dictionaries where each dictionary represents a different pet.
 # In each dictionary, include the kind of animal and the owner's name.
+
+pets = [
+
+    {"Type": "dog", "owner": "Saanvi"},
+
+    {"Type": "cat", "owner": "Saanvii"},
+
+    {"Type": "fish", "owner": "Saanviii"}
+]
+
 # Store these dictionaries in a list called "pets".
+
 # Next, loop through your list and as you do, print everything you know about each pet.
+
+for pet in pets:
+    print(f"Pet kind: {pet['Type']}, owner: {pet['owner']}")
+
 # Make sure the final output is nicely formatted and neat.
 
 
