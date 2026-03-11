@@ -20,7 +20,7 @@ pets = [
 # Next, loop through your list and as you do, print everything you know about each pet.
 
 for pet in pets:
-    print(f"Pet kind: {pet['Type']}, owner: {pet['owner']}")
+    print(f"\nPet kind: {pet['Type']}, owner: {pet['owner']}")
 
 # Make sure the final output is nicely formatted and neat.
 
@@ -28,7 +28,21 @@ for pet in pets:
 # PEOPLE:
 # Make 3 dictionaries representing different people (their firstname, lastname, and phone number)
 # and store all three dictionaries in a list called "people".
+
+people = [
+
+    {"Name": "Saanvi", "Last Name": "Ivnaas", "Phone number": "123456"},
+
+    {"Name": "Saanvii", "Last Name": "Iivnaas", "Phone number": "234567"},
+
+    {"Name": "Saanviii", "Last Name": "Iiivnaas", "Phone number": "345678"}
+]
+
 # Loop through your list of people, printing everything you know about each person.
+
+for person in people:
+    print(f"\nName: {person['Name']}, last name: {person['Last Name']}, phone number: {person['Phone number']}")
+
 # Make sure the final output is nicely formatted and neat.
 
 
